@@ -1,0 +1,68 @@
+/* ==============link.css============== */
+/* mid/index.html의 css파일 */
+
+body {
+  font-family : '맑은 고딕', '돋움';
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: aliceblue;
+  background-image: url('../img/back.jpg');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.25em 0em 0.25em 0em;
+  margin: 1em 0em 0em 0em;
+  border: 1px solid #ffffff;
+  background-color: #e4c0cb;
+}
+
+h1 a:hover { color: #6c60ab; }
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+#menu li { display: inline; }
+#menu a:hover { color: pink; }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#wrapper {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  padding: 0.75em;
+}
+
+h2 {
+  font-size: 3em;
+  color: white;
+  text-shadow: 3px 3px 10px #4c556b;
+}
+
+p { color: #312d45; }
+
+img {
+  width: 300px;
+  height: 375px;
+  border-radius: 100%;
+  margin: 3em 0em 2em 0em;
+  border-style: double;
+  border-color: white;
+  border-width: 0.5em;
+}
+
+#introduce {
+  border-left: 3px solid white;
+  margin-left: 2em;
+}
+
+span {
+  color: #3d2c91;
+  font-weight: bold;
+}
