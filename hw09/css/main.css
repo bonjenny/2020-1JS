@@ -1,0 +1,14 @@
+/*콘텐츠1: 대사*/
+section {
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+}
+/* 콘텐츠2: 줄거리 */
+section#con2 {
+    margin-top: 30px;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: darkolivegreen;
+}

@@ -1,0 +1,105 @@
+/*===================== link.css =====================*/
+/* hw04/hw04.html의 css파일 */
+
+/* 전체 body 설정 */
+
+#wrapper {
+  font-family : '맑은 고딕', '돋움';
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: white;
+}
+
+/* home 버튼 */
+#home {
+  text-align: center;
+  text-decoration: none;
+  padding: 0.25em 0em 0.25em 0em;
+  margin: 1em 0em 0em 0em;
+  border: 1px solid #ffffff;
+  background-color: #e4c0cb;
+}
+#home a:hover { color: #6c60ab; }
+#home a {
+  color: white;
+  text-decoration: none;
+}
+/* home 버튼 끝 */
+
+/* nav, menu */
+#nav {
+  text-align: left;
+  list-style-type: none;
+}
+#menu { background-color: #8d90b0; }
+#menu li { display: inline; }
+#menu a:hover { color: pink; }
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+/* nav, menu 끝 */
+
+/* 인터넷기초실습 교과목 */
+#title {
+  color: darkblue;
+  margin: 20px 0px;
+}
+
+h2 {
+  color: white;
+  margin: 20px 0px;
+  background-color: #e26677;
+  font-size: 36px;
+}
+
+strong, em {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+#img:hover {
+  background-color: mistyrose;
+  cursor: pointer;
+}
+
+
+#content td:hover {
+  background-color: mistyrose;
+  color: black;
+}
+
+/* 테이블 */
+table, tr, th, td {
+  border: solid 1px #952d40;
+  border-collapse: collapse;
+  padding: 20px;
+  font-family: 'Nanum Gothic', 'sans-serif';
+  font-weight: bold;
+  color: black;
+}
+
+#tbl_contact input[type='submit'] {
+  margin-top: 25px;
+  padding: 12px 17px;
+  color: white;
+  background: #705696;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-raidus: 5px;
+  border-radius: 5px;
+  float: right;
+  display: inline-block;
+  width: 80px;
+}
+
+#tbl_contact input[type='submit']:hover {
+  background: #583986;
+  cursor: pointer;
+}
+/* 테이블 끝 */
+
+/*===================== css파일 끝 =====================*/

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+</head>
+<body>
+   <div id="wrapper">
+<!--   헤더: 상단 메뉴    -->
+    <header>
+        <h1><a href="./portfolio.html">
+        <span class="logo"><img src="./img/clown-face.png" alt="로고">JOKER</span>
+        </a></h1>
+        <nav id="top_menu">
+            <ul>
+                <li><a href="../index.html">돌아가기</a></li>
+                <li><a href="./main-info.html">관객평</a></li>
+                <li class="act"><a href="./portfolio.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--    구역: 콘텐츠1    -->
+    <section id="con1">
+        <div class="custom1 owl-carousel owl-theme">
+            <div class="item"><img src="./img/1.jpg" alt="사진1"></div>
+            <div class="item"><img src="./img/2.jpg" alt="사진2"></div>
+            <div class="item"><img src="./img/3.jpg" alt="사진3"></div>
+            <div class="item"><img src="./img/4.jpg" alt="사진4"></div>
+            <div class="item"><img src="./img/5.jpg" alt="사진5"></div>
+            <div class="item"><img src="./img/6.jpg" alt="사진6"></div>
+        </div>
+        <script>
+            jQuery(document).ready(function($) {
+              $('.custom1').owlCarousel({
+                animateOut: 'slideOutDown',
+                animateIn: 'flipInX',
+                items: 1,
+                smartSpeed: 450
+              });
+            });
+          </script>
+    </section>
+<!--    구역: 콘텐츠2    -->
+    <section id="con2">
+        <div id="lines"><img src="./img/double-quote.png" alt="인용부호" width="50px">내 인생이 비극인 줄 알았는데, 엿같은 코미디였어.</div>
+        <div id="summary">
+            <p>고담시의 광대 아서 플렉은 코미디언을 꿈꾸는 남자.</p>
+            <p>하지만 모두가 미쳐가는 코미디같은 세상에서</p>
+            <p>맨 정신으로는 그가 설 자리가 없음을 깨닫게 되는데…</p>
+            <p>이제껏 본 적 없는 진짜 '조커'를 만나라!</p>
+        </div>
+    </section>
+    <!--    푸터: Copyright Info    -->
+    <footer>
+        <div id="bottom_menu">
+            <p id="jocker">JOKER</p>
+            <p>사업자등록번호 : 000-02-07361</p>
+            <p>대표이사 : 안현경</p>
+            <p>사업자등록정보 확인</p>
+        </div>
+        <div id="address">
+            <p id="paju">주소 : 경기도 파주시 광탄면 분수리 473-6</p>
+            <p>대표전화 : 1588-1588</p>
+        </div>
+        <div id="info">
+            본 콘텐츠의 저작권은 저작권자 또는 제공처에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.
+        </div>
+        <div id="copyright">
+            Copyright &#169; <span>JOKER Corp.</span> All Rights Reserved.
+        </div>
+    </footer>
+   </div>
+<!--   wrapper 끝    -->
+</body>
+</html>

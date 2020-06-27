@@ -1,0 +1,92 @@
+<!-- hw07_contact.html -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/link.css">
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <!-- GNB 메뉴 시작 -->
+      <div id="button">
+        <h1 id="home"><a href="../index.html">HOME</a></h1>
+      </div>
+      <div id="nav">
+        <ul id="menu">
+          <li><a href="../hw01/intro.html">HW01</a></li>
+          <li><a href="../hw02/hello-css03.html">HW02</a></li>
+          <li><a href="../hw03/hw03.html">HW03</a></li>
+          <li><a href="../hw04/hw04.html">HW04</a></li>
+          <li><a href="../hw07/hw07.html">HW07</a></li>
+          <li><a href="../hw08/hw08.html">HW08</a></li>
+          <li><a href="../hw09/portfolio.html">HW09</a></li>
+        </ul>
+      </div>
+      <!-- GNB 메뉴 끝 -->
+
+      <div id="content">
+        <div id="contA">
+          <h1 id="title">인터넷기초실습 교과목</h1>
+          <p>웹 프로그래밍 기초가 되는 <strong>HTML5</strong>와 <strong>CSS3</strong>
+          를 중심으로 학습합니다.</p>
+          <p>HTML5와 CSS3를 사용한 <em>웹 사이트 제작</em>을 작성합니다.</p>
+        </div>
+
+        <!-- 본문 시작 (Contact) -->
+        <div id="contB">
+          <h2 id="txt_center">메시지 보내기</h2>
+          <div id='tbl_contact'>
+            <form id='form_contact'>
+              <table border="3">
+                <tr>
+                  <td>이름</td>
+                  <td><input type="text" name="writer" size="55"></td>
+                  <td>연락처</td>
+                  <td><input type="password" name="pw"></td>
+                </tr>
+                <tr>
+                  <td>이메일</td>
+                  <td>
+                    <input type="text" name="email" size="39">@
+                    <select>
+                      <option>daum.net</option>
+                      <option>gmail.com</option>
+                      <option>naver.com</option>
+                      <option>직접입력</option>
+                    </select>
+                  </td>
+                  <td><img src="./img/lock.png" id="img" width="30" alt=""></td>
+                  <td><input type="radio" name="protect" checked>공개</td>
+                  <td><input type="radio" name="protect">비공개</td>
+                </tr>
+                <tr>
+                  <td>제목</td>
+                  <td colspan="4"><input type="text" size="98"></td>
+                </tr>
+                <tr>
+                  <td>메시지</td>
+                  <td colspan="4"><textarea cols="100" rows="20"></textarea></td>
+                </tr>
+              </table>
+              <div id-"tbl_submit"><input type="submit" value="전송"></div>
+            </form>
+          </div><!-- tbl_contact -->
+        </div><!-- contB -->
+      </div><!-- content -->
+
+    <!-- footer 시작 -->
+    <div id="footer">
+      <div id="footer_copyright">
+        <p>
+          Copytight &copy
+          <a href="../mid-20202865_EomJihee/mid/index.html" class="site">
+            JiheeEom</a> All rights reserved.
+        </p>
+        <span>EMAIL : bonjenny@dongyang.ac.kr</span>
+      </div>
+    </div> <!-- footer 끝 -->
+  </div><!-- wrpper -->
+  </body>
+</html>
